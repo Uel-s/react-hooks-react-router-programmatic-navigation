@@ -5,7 +5,7 @@ const linkStyles = {
   width: "100px",
   padding: "12px",
   margin: "0 6px 6px",
-  background: "blue",
+  background: "green",
   textDecoration: "none",
   color: "white",
 };
@@ -28,7 +28,7 @@ function Navbar({ setIsLoggedIn }) {
         style={linkStyles}
         /* add prop for activeStyle */
         activeStyle={{
-          background: "darkblue",
+          background: "blue",
         }}
       >
         Home
@@ -38,7 +38,7 @@ function Navbar({ setIsLoggedIn }) {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "orange",
         }}
       >
         About
@@ -48,7 +48,7 @@ function Navbar({ setIsLoggedIn }) {
         exact
         style={linkStyles}
         activeStyle={{
-          background: "darkblue",
+          background: "black",
         }}
       >
         Login
